@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Big Numbers</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+<body>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      	<div class="form-group">
+		  <label for="var1">First:</label>
+		  <textarea class="form-control" rows="5" id="var1">0</textarea>
+		</div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+		<div class="form-group">
+		  <label for="sel1">Select Operation:</label>
+		  <select class="form-control" id="sel1">
+		    <option value="add">Add +</option>
+		    <option value="minus">Subtract -</option>
+		    <option value="multiply">Multiply *</option>
+		    <option value="divide">Divide /</option>
+            <option value="mod">Mod %</option>
+            <option value="power">Power ^</option>
+		  </select>
+		</div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+  		<div class="form-group">
+  			<label for="var2">Second:</label>
+  			<textarea class="form-control" rows="5" id="var2">0</textarea>
+		</div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+    	<span class="div"></span>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+  		<div class="form-group">
+  			<label for="var3">Equal:</label>
+  			<textarea class="form-control" rows="5" id="var3">0</textarea>
+		</div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+    	<span class="div"></span>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+  		<div class="form-group">
+  			<button type="button" class="btn btn-success" onclick="run()">Equal =</button>
+  			<button type="button" class="btn" onclick="copy()">Copy to Clipboard</button>
+  			<button type="button" class="btn btn-primary" onclick="toClear()">Clear X</button>
+		</div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/big-number.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+.div {
+	display: block;
+    border-top: 5px #cccccc solid;
+    height: 15px;
+}
+
+.container {
+	text-align: left;
+    width: 90%;
+}
